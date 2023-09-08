@@ -90,7 +90,7 @@ new_window.config(pady=50, padx=50)
 new_window.title('Keep it as a Secret')
 
 new_canvas = Canvas(height=200, width=200)
-lock_image = PhotoImage(file="logo.png")
+lock_image = PhotoImage(file="rabbit.png")
 new_canvas.create_image(100, 100, image=lock_image)
 new_canvas.grid(row=0, column=1)
 
